@@ -184,9 +184,7 @@ def main():
                 # Upload to S3
                 upload_response = upload_to_s3(ficheroUpload, nombreBucket)
                 if upload_response is not None:
-                    print("Ingesta completada successfully")
-                else:
-                    print("Ingesta completed with S3 upload error")
+                    print("Ingesta completada")
             else:
                 print("Ingesta failed: Could not save data to CSV")
         else:
