@@ -4,8 +4,8 @@ import csv
 import os
 
 # Database connection parameters
-DB_HOST = 'localhost'
-DB_PORT = 8005  # Mapped port from Docker container
+DB_HOST = 'mysql_c'  # Use MySQL container name when running in Docker network
+DB_PORT = 3306  # Use internal port within Docker network
 DB_USER = 'root'
 DB_PASSWORD = 'utec'
 DB_NAME = 'bd_api_employees'  # We'll need to specify which database/table to read from
