@@ -13,7 +13,7 @@ TABLE_NAME = 'employees'
 
 # File and S3 configuration
 ficheroUpload = "data.csv"
-nombreBucket = "gcr-output-01"
+nombreBucket = "luismaqueradev-3"
 
 def connect_to_mysql():
     """Connect to MySQL database"""
